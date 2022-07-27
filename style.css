@@ -1,9 +1,5 @@
-
-
-
-
 body {
-    background-color:  #FAF7FD;
+    background-color: #FAF7FD;
     margin: 0;
     height: 100vh;
     width: 100%;
@@ -11,17 +7,17 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    
-  
+
+
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
 
-.main{
+.main {
     background-color: transparent;
     margin: 0 auto;
     padding: 1rem;
@@ -31,41 +27,30 @@ a{
     flex-direction: column;
     align-items: center;
     color: #BB99DD;
-
 }
-.avatar{
+
+.avatar {
     width: 250px;
     height: 250px;
     padding: 3px;
-    background-color: white ;
+    background-color: white;
     border-radius: 50%;
     border: 2px solid #BB99DD;
-   
-    
-  
-    
 }
-.avatar img{
-    
+
+.avatar img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-
-    
-   
-   
-   
 }
 
 .name {
-    
     height: 40px;
     width: 300px;
     text-align: center;
     align-items: center;
     padding-top: 20px;
     font-size: 22px;
-
 }
 
 
@@ -74,13 +59,10 @@ a{
     height: 300px;
     align-items: center;
     display: inline-block;
-  
     text-align: center;
-  
-   
 }
 
- .bt {
+.bt {
     width: 350px;
     height: 50px;
     align-items: center;
@@ -90,10 +72,9 @@ a{
     text-align: center;
     background-color: transparent;
     transition: 0.6s;
-   
-    
 }
-.bt:hover{
+
+.bt:hover {
     background-color: #BB99DD;
     color: white;
     cursor: pointer;
@@ -101,22 +82,22 @@ a{
 
 
 .social {
-   
+
     width: 350px;
     height: 50px;
     padding-top: 10px;
-    
     text-align: center;
 }
 
 .social img {
-   margin: 15px;
+    margin: 15px;
 }
-.social_icon{
+
+.social_icon {
     transition: 0.5s;
 }
-.social_icon:hover{
+
+.social_icon:hover {
     cursor: pointer;
     transform: scale(2);
-} 
-    
+}
